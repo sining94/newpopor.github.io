@@ -94,12 +94,12 @@ $(function () {
             }
             else if (metrix == $(".welcome > p").length) {
                 $(".question > p").css({ "opacity": "1", "transform": "translateY(0vh)" });
-                $("#mouse").animate({ "opacity": "1" }, 1500)
+                $(".mouse").animate({ "opacity": "1" }, 1500)
             }
         }, 50);
     }, 200);
 
-    $("#mouse").click(function () {
+    $(".mouse").click(function () {
         $("body,html").scrollTop(380);
     });
 
