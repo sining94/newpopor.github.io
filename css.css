@@ -132,23 +132,23 @@ header > ul > li > a {
     display: inline-block;
     content: "";
     clear: both;
-    width: 0.5vw;
+    width: 8px;
     height: 1vh;
     border-radius: 50%;
     position: absolute;
-    left: 0.27vw;
+    left: calc(100% - 12px);
     background:rgb(255, 255, 255);
     animation: ball 2s infinite;
 }
 .mouse::before{
-    display: inline-block;
+    display: block;
     content: "Click";
     clear: both;
     position: absolute;
     color: #fff;
-    font-size: 1.5vw;
-    top: -120%;
-    left: -150%;
+    font-size: 24px;
+    top: -110%;
+    left: -90%;
     animation: click 5s infinite;
 }
 
